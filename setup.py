@@ -6,8 +6,8 @@ setup(
     description='My first Python library',
     author='Me',
     license='MIT',
-    install_requires=[],
-    setup_requires=['pytest-runner'],
+    install_requires=['twine'],
+    setup_requires=['pytest-runner', 'twine'],
     tests_require=['pytest==7.2.1'],
     test_suite='tests',
 )
